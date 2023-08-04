@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hiretech/static/css/main.e9bcf785.css",
+    "main.js": "/hiretech/static/js/main.dab487ea.js",
+    "index.html": "/hiretech/index.html",
+    "main.e9bcf785.css.map": "/hiretech/static/css/main.e9bcf785.css.map",
+    "main.dab487ea.js.map": "/hiretech/static/js/main.dab487ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9bcf785.css",
+    "static/js/main.dab487ea.js"
+  ]
+}
