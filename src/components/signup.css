@@ -1,0 +1,20 @@
+.signin{
+    height: 60rem;
+    width: 126rem;
+  
+  
+    
+}
+.formin{
+    height: 59rem;
+    width: 46rem;
+    margin-left: 40rem;
+    margin-right: 0;
+    padding: 3rem;
+    border-radius: 3rem;;
+    /* padding-left: 40rem;
+    padding-right: 40rem; */
+    align-items: center;
+    background-color:rgba(224, 233, 230, 0.597);
+
+}

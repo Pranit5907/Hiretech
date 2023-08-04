@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+.main-nav{
+    width: 126rem;
+    height: 10rem;
+    display :grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+
+.logo{
+    display: flex;
+    height: 9rem;
+     margin-top: 0px;
+    grid-column: 2/3;
+    align-items: center;
+}
+.menu-link{
+    grid-column: 3/4;
+    /* display: flex;
+    align-items: center; */
+}
+.menu-link ul{
+    /* height: 10rem; */
+  
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(38, 125, 188);
+
+
+}
+
+
+
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,rgb(199, 79, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.logo h2 span{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,rgb(139, 46, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.menu-link ul li{
+    font-size: 1.8rem;
+}
+
+.menu-link ul li {
+    font-size: 1.8rem;
+    color: rgb(50, 120, 218);
+    transition: 0.5s;
+}
+.menu-link ul li :hover{
+   transform-origin: left;
+   /* text-decoration:; */
+   transition: 0.5s;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+}
+
+    
+
+.but1 button {
+    width: 100px;
+    font-size: 1.8rem;
+    color: black;
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.but2 button{
+    width: 100px;
+    font-size: 1.8rem;
+    color: black;
+    background-color: rgb(184, 86, 15);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

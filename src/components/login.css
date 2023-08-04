@@ -1,0 +1,78 @@
+
+
+
+/* .main-nav{
+width: 126rem;
+height: 10rem;
+display :grid;
+grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+.logo{
+    display: flex;
+    height: 9rem;
+     margin-top: 0px;
+    grid-column: 2/3;
+    align-items: center;
+
+}
+
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,rgb(199, 79, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.logo h2 span{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,rgb(139, 46, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.mainl{
+    height: 40rem;
+    width: 126rem;
+  
+  
+    
+}
+.form{
+    height: 40rem;
+    width: 46rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    padding: 3rem;
+    border-radius: 3rem;;
+    /* padding-left: 40rem;
+    padding-right: 40rem; */
+    align-items: center;
+    background-color: rgba(224, 233, 230, 0.597);
+
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-g{
+    height: 50px;
+    width: 395px;
+}
+.btnn{
+    height: 25rem;
+    width: 200px;
+    font-size: 2rem;
+    background-color: rgb(233, 155, 155);
+    /* block-size: 10rem; */
+    color: black;
+    
+}
+.btnn:hover{
+    text-decoration: none;
+    color: black;
+}
